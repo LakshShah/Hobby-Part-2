@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    background-repeat: no-repeat;
+    border: solid 10px;
+    background-image: linear-gradient(to right, lightblue , blue);
+    
+}
+h1{
+    text-shadow: 2px 2px;
+    font-size: 50px;
+    border:dotted;
+    font-family:"https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap"
+}
+#info{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+img{
+    width: 300px;
+        height: 300px;
+    border-radius: 50%;
+}
+.link:hover{
+    background-color: aqua;
+}
+.link{
+    background-image: linear-gradient(white, lightblue);
+    text-decoration: underline;
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.index{
+    z-index: 10;
+    list-style: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+
+}
+h3{
+    font-size: 25px;
+}
